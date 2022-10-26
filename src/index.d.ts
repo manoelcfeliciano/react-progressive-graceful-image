@@ -14,7 +14,7 @@ declare module 'react-progressive-graceful-image' {
 		noLazyLoad?: boolean;
 		rootMargin?: string;
 		threshold?: Array;
-		children?: (src: string, loading: boolean, srcSetData: srcSetData) => React.ReactNode;
+		children?: (src: string, loading?: boolean, srcSetData?: srcSetData) => React.ReactNode;
 	}
 
 	export interface ProgressiveImageState {
